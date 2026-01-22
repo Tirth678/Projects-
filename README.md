@@ -9,5 +9,5 @@
 **ElevenLabs Sales Page** – Marketing-focused landing page layout  
   https://assignements-6o56.vercel.app/
 
-**100xDevs Landing Page** *(In Progress)* – Static UI clone of 100xDevs official page 
+**100xDevs Landing Page** *(In Progress)* – Static UI clone of 100xDevs official page  <br>
   https://assignements-imvi.vercel.app/
