@@ -18,9 +18,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3px 32px;
     background: #fff;
     box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    padding: 0 50px;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+#explore-btn{
+    font-family: sans-serif;
+    font-weight: 100;
+}
+#learn-btn{
+    font-family: sans-serif;
+    font-weight: 100;
 }
 
 .nav-left {
@@ -52,6 +63,9 @@
     align-items: center;
     gap: 16px;
 }
+.nav-right input{
+    margin-top: 20px;
+}
 
 .search-box {
     position: relative;
@@ -66,7 +80,8 @@
     color: white;
     font-weight: 600;
     cursor: pointer;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    margin-top: 25px;
 }
 
 #search{
@@ -80,18 +95,11 @@
 nav a{
     text-decoration: none;
     color: black;
-    padding-right: 20px;
-    font-weight: bold;
-    font-size: small;
-    padding-right: 20px;
+    padding-right: 18px;
+    font-size: medium;
+    font-family: sans-serif;
 }
-nav img{
-    height: 40px;
-    width: 120px;
-}
-input{
-    padding: 5px 20px;
-}
+
 main{
     display: flex;
     flex-direction: row;
@@ -111,7 +119,6 @@ main img{
     background-color: white;
     padding: 15px 24px;
     border-radius: 8px;
-    font-weight: bold;
     margin-top: 20px;
     display: inline-block;
     border: 0.2px solid black;
